@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss";
 
-
 export default {
   darkMode: "selector",
   content: ["./app/**/*.{js,jsx,ts,tsx}"],
@@ -122,6 +121,5 @@ export default {
     // require("@tailwindcss/forms"),
     require("tailwindcss-react-aria-components"),
     require("tailwindcss-animate"),
-
   ],
 } satisfies Config;
