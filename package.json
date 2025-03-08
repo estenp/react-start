@@ -13,7 +13,7 @@
     "format-all": "prettier --write --ignore-path .gitignore --ignore-path .prettierignore .",
     "storybook": "storybook dev -p 6006 -c ./app/components/.storybook",
     "storybook-build": "storybook build -c ./app/components/.storybook",
-    "storybook-docs": "storybook build -c ./app/components/.storybook --docs",
+    "storybook-docs": "storybook build -c ./app/components/.storybook --docs"
   },
   "dependencies": {
     "@react-router/node": "^7.3.0",
